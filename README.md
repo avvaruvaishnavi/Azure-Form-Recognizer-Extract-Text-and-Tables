@@ -22,12 +22,13 @@ This Python script uses the **Azure Cognitive Services Computer Vision API** to 
 3. **Modify the Image URL**:
    Change the furl and rurl variables in the script to the URLs of the images you want to analyze. The URLs can point to publicly accessible images or hosted image files:
    ```python
-  furl = "https://example.com/your-form-image.jpg"  # Replace with your form image URL
-  rurl = "https://example.com/your-receipt-image.png"  # Replace with your receipt image URL
+   furl = "https://example.com/your-form-image.jpg"  # Replace with your form image URL
+   rurl = "https://example.com/your-receipt-image.png"  # Replace with your receipt image URL
    ```
 
 5. **Run the Script**:
    After setting up `cred.py` and modifying the image URL, run the Python script:
+   
    ```bash
    python main.py
    ```
